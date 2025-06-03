@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/output.css">
+    <title>Template</title>
+</head>
+<body>
+    <div id="wrapper" class="min-h-screen flex flex-col items-center justify-center p-10">
+        <header class="w-full flex flex-col fixed top-0 left-0 z-1">
+            <nav class="flex items-center justify-between bg-white p-10 w-full">
+                <div class="text-2xl font-bold">Miniture</div>
+                <ul class="flex gap-6">
+                    <li><a href="#" class="text-gray-700 hover:text-orange-500 transition-colors">Home</a></li>
+                    <li><a href="#" class="text-gray-700 hover:text-orange-500 transition-colors">Products</a></li>
+                    <li><a href="#" class="text-gray-700 hover:text-orange-500 transition-colors">About Us</a></li>
+                    <li><a href="#" class="text-gray-700 hover:text-orange-500 transition-colors">Contact</a></li>
+                    <li><a href="#" class="text-gray-700 hover:text-orange-500 transition-colors">Cart</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main class="max-w-7xl w-full mt-10">
+            <section class="my-6 py-8">
+                <h1 class="text-6xl max-w-2xl font-semibold my-[80px]">
+                    <span class="px-3 bg-orange-400 rounded-full mx-3 text-white text-xs"></span>
+                    Elevate Your Lifestyle with Our Furniture Creations
+                    <span class="px-3 bg-orange-400 rounded-full mx-3 text-white text-xs"></span>
+                </h1>
+
+                <div class="flex flex-col">
+                    <div class="w-full h-[600px] image-card">
+                        <figure class="w-full h-full">
+                            <img src="assets/image1.jpeg" alt="" class="image-zoom" />
+                        </figure>
+                    </div>
+                    <div class="flex flex-col md:flex-row gap-2 mt-2">
+                        <div class="w-full xl:w-1/3 aspect-square rounded-2xl relative overflow-hidden">
+                            <figure class="w-full h-full">
+                                <img src="assets/image2.jpg" alt="" class="image-zoom" />
+                            </figure>
+                            <div class="image-caption-wrapper">
+                                <div class="image-caption">Living room</div>
+                            </div>
+                        </div>
+                        <div class="w-full xl:w-1/3 aspect-square image-card">
+                            <figure class="w-full h-full">
+                                <img src="assets/image3.jpg" alt="" class="image-zoom" />
+                            </figure>
+                            <div class="image-caption-wrapper">
+                                <div class="image-caption">Bed room</div>
+                            </div>
+                        </div>
+                        <div class="w-full xl:w-1/3 flex flex-col gap-2">
+                            <div class="h-1/2 flex image-card">
+                                <figure class="w-full h-full">
+                                    <img src="assets/image4.jpg" alt="" class="image-zoom" />
+                                </figure>
+                                <div class="image-caption-wrapper">
+                                    <div class="image-caption">Kitchen</div>
+                                </div>
+                            </div>
+                            <div class="h-1/2 image-card">
+                                <figure class="w-full h-full">
+                                    <img src="assets/image5.jpg" alt="" class="image-zoom" />
+                                </figure>
+                                <div class="image-caption-wrapper">
+                                    <div class="image-caption">Kids Room</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="my-6 py-8">
+                <h2 class="text-center text-2xl font-bold my-10">You are in Kitchen</h2>
+                <div class="">
+                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+                        <div class="bg-white rounded-lg relative">
+                            <div class="relative group overflow-hidden">
+                                <img src="assets/product1.jpeg" alt="product Item 1" class="w-full aspect-square object-cover rounded-lg hover:saturate-200 transition duration-300">
+                                <div class="translate-y-10 absolute rounded-full bg-black text-white hover:bg-orange-400 h-10 w-10 items-center justify-center group-hover:-translate-y-14 transition duration-700 right-4 cursor-pointer">
+                                    <p class="flex justify-center items-center h-full w-full">
+                                        <i class="fa-solid fa-cart-arrow-down"></i>
+                                    </p>
+                                </div>
+                                <div class="absolute flex flex-col gap-2 -right-10 top-4 group-hover:-translate-x-14 transition duration-700">
+                                    <p class="flex justify-center items-center rounded-full bg-white hover:bg-orange-400 hover:text-white text-black h-10 w-10 transition duration-300 cursor-pointer">
+                                        <i class="fa-regular fa-heart"></i>
+                                    </p>
+                                    <p class="flex justify-center items-center rounded-full bg-white hover:bg-orange-400 hover:text-white text-black h-10 w-10 transition duration-300 cursor-pointer">
+                                        <i class="fa-solid fa-magnifying-glass"></i>
+                                    </p>
+                                </div>
+                            </div>
+                            <h3 class="text-md font-semibold mt-4">Product Item 1</h3>
+                            <p class="text-gray-600">Description of product item 1.</p>
+                        </div>
+                        <div class="bg-white rounded-lg relative">
+                            <div class="relative group overflow-hidden">
+                                <img src="assets/product2.jpeg" alt="product Item 1" class="w-full aspect-square object-cover rounded-lg hover:saturate-200 transition duration-300">
+                                <div class="translate-y-10 absolute rounded-full bg-black text-white h-10 w-10 items-center justify-center group-hover:-translate-y-14 transition duration-700 right-4">
+                                    <p class="flex justify-center items-center h-full w-full">
+                                        <i class="fa-solid fa-cart-arrow-down"></i>
+                                    </p>
+                                </div>
+                            </div>
+                            <h3 class="text-md font-semibold mt-4">Product Item 2</h3>
+                            <p class="text-gray-600">Description of product item 2.</p>
+                        </div>
+                        <div class="bg-white rounded-lg relative">
+                            <div class="relative group overflow-hidden">
+                                <img src="assets/product3.jpeg" alt="product Item 1" class="w-full aspect-square object-cover rounded-lg hover:saturate-200 transition duration-300">
+                                <div class="translate-y-10 absolute rounded-full bg-black text-white h-10 w-10 items-center justify-center group-hover:-translate-y-14 transition duration-700 right-4">
+                                    <p class="flex justify-center items-center h-full w-full">
+                                        <i class="fa-solid fa-cart-arrow-down"></i>
+                                    </p>
+                                </div>
+                            </div>
+                            <h3 class="text-md font-semibold mt-4">Product Item 3</h3>
+                            <p class="text-gray-600">Description of product item 3.</p>
+                        </div>
+                        <div class="bg-white rounded-lg relative">
+                            <div class="relative group overflow-hidden">
+                                <img src="assets/product4.jpeg" alt="product Item 1" class="w-full aspect-square object-cover rounded-lg hover:saturate-200 transition duration-300">
+                                <div class="translate-y-10 absolute rounded-full bg-black text-white h-10 w-10 items-center justify-center group-hover:-translate-y-14 transition duration-700 right-4">
+                                    <p class="flex justify-center items-center h-full w-full">
+                                        <i class="fa-solid fa-cart-arrow-down"></i>
+                                    </p>
+                                </div>
+                            </div>
+                            <h3 class="text-md font-semibold mt-4">Product Item 4</h3>
+                            <p class="text-gray-600">Description of product item 4.</p>
+                        </div>
+                        <div class="bg-white rounded-lg relative">
+                            <div class="relative group overflow-hidden">
+                                <img src="assets/product5.jpeg" alt="product Item 1" class="w-full aspect-square object-cover rounded-lg hover:saturate-200 transition duration-300">
+                                <div class="translate-y-10 absolute rounded-full bg-black text-white h-10 w-10 items-center justify-center group-hover:-translate-y-14 transition duration-700 right-4">
+                                    <p class="flex justify-center items-center h-full w-full">
+                                        <i class="fa-solid fa-cart-arrow-down"></i>
+                                    </p>
+                                </div>
+                            </div>
+                            <h3 class="text-md font-semibold mt-4">Product Item 5</h3>
+                            <p class="text-gray-600">Description of product item 5.</p>
+                        </div>
+                        <div class="bg-white rounded-lg relative">
+                            <div class="relative group overflow-hidden">
+                                <img src="assets/product6.jpeg" alt="product Item 1" class="w-full aspect-square object-cover rounded-lg hover:saturate-200 transition duration-300">
+                                <div class="translate-y-10 absolute rounded-full bg-black text-white h-10 w-10 items-center justify-center group-hover:-translate-y-14 transition duration-700 right-4">
+                                    <p class="flex justify-center items-center h-full w-full">
+                                        <i class="fa-solid fa-cart-arrow-down"></i>
+                                    </p>
+                                </div>
+                            </div>
+                            <h3 class="text-md font-semibold mt-4">Product Item 6</h3>
+                            <p class="text-gray-600">Description of product item 6.</p>
+                        </div>
+                        <div class="bg-white rounded-lg relative">
+                            <div class="relative group overflow-hidden">
+                                <img src="assets/product7.jpeg" alt="product Item 1" class="w-full aspect-square object-cover rounded-lg hover:saturate-200 transition duration-300">
+                                <div class="translate-y-10 absolute rounded-full bg-black text-white h-10 w-10 items-center justify-center group-hover:-translate-y-14 transition duration-700 right-4">
+                                    <p class="flex justify-center items-center h-full w-full">
+                                        <i class="fa-solid fa-cart-arrow-down"></i>
+                                    </p>
+                                </div>
+                            </div>
+                            <h3 class="text-md font-semibold mt-4">Product Item 7</h3>
+                            <p class="text-gray-600">Description of product item 7.</p>
+                        </div>
+                        <div class="bg-white rounded-lg relative">
+                            <div class="relative group overflow-hidden">
+                                <img src="assets/product8.jpeg" alt="product Item 1" class="w-full aspect-square object-cover rounded-lg hover:saturate-200 transition duration-300">
+                                <div class="translate-y-10 absolute rounded-full bg-black text-white h-10 w-10 items-center justify-center group-hover:-translate-y-14 transition duration-700 right-4">
+                                    <p class="flex justify-center items-center h-full w-full">
+                                        <i class="fa-solid fa-cart-arrow-down"></i>
+                                    </p>
+                                </div>
+                            </div>
+                            <h3 class="text-md font-semibold mt-4">Product Item 8</h3>
+                            <p class="text-gray-600">Description of product item 8.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="my-10 py-8">
+                <div class="flex flex-col md:flex-row w-full h-[600px] gap-4">
+                    <div class="w-full md:w-1/2">
+                        <figure class="w-full h-full">
+                            <img src="assets/hotspot.jpg" alt="" class="w-full h-full object-cover rounded-xl">
+                        </figure>
+                    </div>
+                    <div class="w-full md:w-1/2 flex flex-col gap-2 text-center items-center justify-center p-8">
+                        <p class="text-md">LIMITED TIME ONLY</p>
+                        <h3 class="font-semibold text-5xl">The living room event up to 30% off</h3>
+                        <p class="text-lg">Striking the perfect balance between comfort and modern style, Gather is clean-lined and current.</p>
+                        <div class="flex gap-2 justify-center mt-4">
+                            <div class="flex flex-col items-center justify-center h-20 w-20 rounded-full border border-slate-400">
+                                <p class="font-semibold text-2xl">00</p>
+                                <p class="text-xs text-slate-400">Days</p>
+                            </div>
+                            <div class="flex flex-col items-center justify-center h-20 w-20 rounded-full border border-slate-400">
+                                <p class="font-semibold text-2xl">00</p>
+                                <p class="text-xs text-slate-400">Hours</p>
+                            </div>
+                            <div class="flex flex-col items-center justify-center h-20 w-20 rounded-full border border-slate-400">
+                                <p class="font-semibold text-2xl">00</p>
+                                <p class="text-xs text-slate-400">Minutes</p>
+                            </div>
+                            <div class="flex flex-col items-center justify-center h-20 w-20 rounded-full border border-slate-400">
+                                <p class="font-semibold text-2xl">00</p>
+                                <p class="text-xs text-slate-400">Seconds</p>
+                            </div>
+                        </div>
+                        <button class="mt-8 px-8 py-4 bg-orange-400 text-white rounded-full hover:bg-orange-500 cursor-pointer transition-colors">Shop Now</button>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer></footer>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
